@@ -170,7 +170,7 @@ This project is created for educational purposes as part of a semester assignmen
 This is a student project template. Feel free to modify and customize according to your needs.
 
 ## 📞 Support
-For questions about using this template, please refer to the code comments and structure provided.
+For questions about using this template, please contact us at developsun04@gmail.com
 
 ---
 **Last Updated**: May 2025  
