@@ -1,17 +1,20 @@
+미디어 파일을 제외한 README.md로 수정해드릴게요:
+
 # Student Portfolio Website
 
-A collaborative portfolio website showcasing student projects, skills, and achievements.
+A collaborative portfolio website showcasing student projects, skills, and achievements, featuring an integrated basketball-themed sub-project.
 
 ## 📋 Project Overview
-This is a semester project featuring a multi-student portfolio website built with HTML, CSS, and JavaScript. The website includes individual sections for each student, displaying their personal information, projects, skills, and accomplishments.
+This is a semester project featuring a multi-student portfolio website built with HTML, CSS, and JavaScript. The website includes individual sections for each student and a dedicated basketball project showcasing web development skills.
 
 ## 🌟 Features
 - **Multi-student Portfolio**: Individual sections for each team member
+- **Basketball Sub-project**: Dedicated basketball information website
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 - **Interactive Elements**: Dynamic content and smooth navigation
 - **Comprehensive Sections**:
   - About Me pages
-  - Project showcases
+  - Project showcases (including Basketball project)
   - Skills visualization
   - Awards and accomplishments
   - Photo galleries
@@ -21,30 +24,44 @@ This is a semester project featuring a multi-student portfolio website built wit
 ## 🛠️ Technologies Used
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Design**: Responsive web design principles
-- **Media**: Images, videos, and interactive content
+- **Media**: Placeholder references for images and videos
 
 ## 📁 Project Structure
 ```
 student-semester-project/
-├── HTML/
-│   ├── Home.html
+├── Basketball/                    # Basketball-themed sub-project
+│   ├── CSS/
+│   │   ├── Home.css
+│   │   ├── Player.css
+│   │   └── Rule.css
+│   └── HTML/
+│       ├── Home.html
+│       ├── Player.html
+│       └── Rule.html
+├── CSS/                          # Main portfolio stylesheets
+│   ├── About_Me.css
+│   ├── Awards.css
+│   ├── Contact_Me.css
+│   ├── Gallery.css
+│   ├── Hobbies_Interests.css
+│   ├── Home.css
+│   ├── Projects.css
+│   ├── Resume.css
+│   ├── Skills.css
+│   └── Testimonials.css
+├── HTML/                         # Main portfolio pages
 │   ├── About_Me.html
-│   ├── Projects.html
+│   ├── Awards.html
+│   ├── Contact_Me.html
 │   ├── Gallery.html
+│   ├── Hobbies_Interests.html
+│   ├── Home.html
+│   ├── Projects.html
 │   ├── Resume.html
 │   ├── Skills.html
-│   ├── Awards.html
-│   ├── Testimonials.html
-│   ├── Hobbies_Interests.html
-│   └── Contact_Me.html
-├── CSS/
-│   ├── Home.css
-│   ├── About_Me.css
-│   └── [other stylesheets]
-├── js/
+│   └── Testimonials.html
+├── JS/
 │   └── scripts.js
-├── media/
-│   └── [images and videos]
 └── README.md
 ```
 
@@ -63,24 +80,56 @@ student-semester-project/
    ```bash
    cd student-semester-project
    ```
-3. Open `HTML/Home.html` in your web browser
+3. Open `HTML/Home.html` in your web browser for the main portfolio
+4. Or open `Basketball/HTML/Home.html` for the basketball project
+
+## 📸 Media Files Setup
+**Important**: Media files are not included in this repository. You will need to add your own images and media files.
+
+### Required Media Structure:
+Create a `MEDIA/` folder in the root directory and add:
+- **Profile photos**: For About Me and Contact pages
+- **Project images**: For Projects and Gallery sections
+- **Award certificates**: For Awards page
+- **Logo and favicon**: For branding
+- **Background images**: For visual enhancement
+
+### Media File References in Code:
+The HTML files contain placeholder references to media files. Update the following paths with your own media:
+- `../media/logo.png` - Website logo
+- `../media/favicon.ico` - Browser favicon
+- `../media/student1.jpg`, `../media/student2.jpg`, etc. - Profile photos
+- `../media/award_certificate1.jpg`, etc. - Award images
+- `../media/project_icon.jpg` - Project thumbnails
+
+### Basketball Project Media:
+For the Basketball sub-project, add media files to `Basketball/MEDIA/`:
+- Basketball court diagrams
+- Player photos
+- Basketball-related images
+
+## 🏀 Basketball Sub-Project
+A dedicated section featuring:
+- **Home**: Basketball overview and introduction
+- **Players**: Information about basketball players
+- **Rules**: Basketball rules and regulations
 
 ## 👥 Team Members
-- **Student 1**: [Role/Contribution]
-- **Student 2**: [Role/Contribution]
-- **Student 3**: [Role/Contribution]
+- **Student 1**: Web development and basketball project
+- **Student 2**: Design and content creation
+- **Student 3**: Documentation and testing
 
-## 📱 Pages Included
+## 📱 Main Portfolio Pages
 1. **Home** - Landing page with navigation
 2. **About Me** - Personal introductions for each student
-3. **Projects** - Showcase of completed projects
-4. **Gallery** - Photo and video collections
+3. **Projects** - Showcase of completed projects (including Basketball project)
+4. **Gallery** - Photo collections (add your own photos)
 5. **Resume** - Professional CV sections
 6. **Skills** - Technical and soft skills visualization
-7. **Awards** - Achievements and accomplishments
+7. **Awards** - Achievements and accomplishments (add your own certificates)
 8. **Testimonials** - Recommendations and feedback
 9. **Hobbies & Interests** - Personal interests and activities
-10. **Contact** - Contact information and social links
+10. **Contact** - Contact information
 
 ## 🎨 Design Features
 - Clean and modern interface
@@ -88,15 +137,35 @@ student-semester-project/
 - Interactive hover effects
 - Smooth transitions and animations
 - Mobile-responsive layout
+- Integrated sub-project navigation
+
+## ⚠️ Setup Instructions
+1. **Download the code files**
+2. **Create your own media folder structure**
+3. **Add your personal photos, certificates, and project images**
+4. **Update file paths in HTML files to match your media files**
+5. **Customize content with your own information**
+
+## 🔧 Customization Guide
+- Replace placeholder text with your own content
+- Update contact information in Contact_Me.html
+- Add your own project descriptions in Projects.html
+- Replace skill names and descriptions in Skills.html
+- Update award information in Awards.html
 
 ## 📝 License
 This project is created for educational purposes as part of a semester assignment.
 
 ## 🤝 Contributing
-This is a student project. For any suggestions or improvements, please contact the team members.
+This is a student project template. Feel free to modify and customize according to your needs.
 
-## 📞 Contact
-For questions about this project, please reach out through the contact information provided on the website.
+## 📞 Support
+For questions about using this template, please refer to the code comments and structure provided.
+
+---
+**Last Updated**: May 2025  
+**Project Status**: Template Ready ✅  
+**Note**: Add your own media files and customize content before use 📁
 
 ---
 **Last Updated**: May 2025  
