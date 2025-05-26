@@ -10,7 +10,7 @@ This is a semester project featuring a multi-student portfolio website built wit
 - **Basketball Sub-project**: Dedicated basketball information website
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 - **Interactive Elements**: Dynamic content and smooth navigation
-- **CSS-Focused Development**: Minimal JavaScript usage (only 5 JS functions) with CSS-driven design
+- **CSS-Focused Development**: Minimal JavaScript usage (only 6 JS functions) with CSS-driven design
 - **Comprehensive Sections**:
   - About Me pages
   - Project showcases (including Basketball project)
@@ -23,7 +23,7 @@ This is a semester project featuring a multi-student portfolio website built wit
 ## 🛠️ Technologies Used
 - **Frontend**: HTML5, CSS3, JavaScript (minimal usage)
 - **Design**: CSS-focused responsive web design principles
-- **JavaScript**: Limited to 5 essential functions only
+- **JavaScript**: Limited to 6 essential functions only
 - **Media**: Placeholder references for images and videos
 - **Approach**: CSS-first development with minimal JavaScript dependency
 
@@ -62,7 +62,7 @@ student-portfolio/
 │   ├── Skills.html
 │   └── Testimonials.html
 ├── JS/
-│   └── scripts.js               # Contains only 5 essential functions
+│   └── scripts.js               # Contains only 6 essential functions
 └── README.md
 ```
 
@@ -134,7 +134,7 @@ A dedicated section featuring:
 
 ## 🎨 Design Features
 - **CSS-Driven Design**: Emphasis on pure CSS for styling and animations
-- **Minimal JavaScript**: Only 5 JavaScript functions used for essential functionality
+- **Minimal JavaScript**: Only 6 JavaScript functions used for essential functionality
 - **Clean and modern interface**: Achieved primarily through CSS
 - **Consistent color scheme and typography**: CSS-based theming
 - **Interactive hover effects**: CSS transitions and transforms
