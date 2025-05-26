@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: '1.6';
+}
+
+header {
+    background-color: #1d428a;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.basketball-icon {
+    font-size: 40px;
+}
+
+.logo-placeholder:hover {
+    transform: scale(1.1);
+}
+
+.title-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.title-container p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #c8102e;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1504450758481-7338eba7524a');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    color: #1d428a;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #c8102e;
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.player-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.player-card:hover {
+    transform: translateY(-10px);
+}
+
+.player-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.player-card h3 {
+    padding: 15px 15px 5px;
+    font-size: 1.2rem;
+    color: #1d428a;
+}
+
+.player-card p {
+    padding: 0 15px 15px;
+    color: #666;
+}
+
+.view-more {
+    display: inline-block;
+    background-color: #1d428a;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.view-more:hover {
+    background-color: #17316c;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.main-news {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-news img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h3 {
+    color: #1d428a;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.news-content p {
+    margin-bottom: 15px;
+}
+
+.date {
+    display: block;
+    color: #777;
+    font-style: italic;
+}
+
+.trending-news {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trending-news h3 {
+    color: #c8102e;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.trending-news ul {
+    list-style: none;
+}
+
+.trending-news li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.trending-news li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.trending-news h4 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-content img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.history-content h3 {
+    color: #1d428a;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.history-content p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #1d428a;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo-placeholder {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .news-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .history-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.title-container h1 {
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+header {
+    background: linear-gradient(135deg, #1d428a 0%, #17316c 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

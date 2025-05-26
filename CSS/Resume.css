@@ -1,0 +1,205 @@
+:root {
+  --primary-color: #333;
+  --background-color: #fff;
+  --text-color: #222;
+  --accent-color: #007BFF;
+  --border-radius: 10px;
+  --table-header-bg: #e3eafc;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--background-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 50px;
+  border-radius: var(--border-radius);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s;
+}
+
+nav a.active,
+nav a:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.resume-section {
+  max-width: 950px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: #fafbfc;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+.resume-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  font-size: 2.2rem;
+}
+
+.resume-content {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile-area {
+  flex-basis: 220px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--accent-color);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+.profile-caption {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  margin-top: 0.7rem;
+  font-weight: bold;
+}
+
+.info-area {
+  flex: 1;
+  min-width: 250px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.resume-table th, .resume-table td {
+  border: 1px solid #ddd;
+  padding: 0.7rem 1rem;
+  text-align: left;
+}
+
+.resume-table th {
+  background: var(--table-header-bg);
+  color: #222;
+}
+
+.resume-list {
+  list-style: disc inside;
+  margin-bottom: 1.2rem;
+  padding-left: 1.2rem;
+}
+
+.resume-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+}
+
+.footer-content span {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .resume-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-area {
+    margin-bottom: 1.5rem;
+  }
+  .resume-section {
+    padding: 1rem;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+/* JS 인터랙션 효과용 */
+.profile-img.zoomed {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+  border-color: #ff9800;
+}
+.resume-list li.highlighted {
+  background: #ffe082;
+  font-weight: bold;
+  border-left: 5px solid #ff9800;
+  transition: background 0.3s, border-left 0.3s;
+}
