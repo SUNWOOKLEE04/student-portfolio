@@ -139,7 +139,6 @@ A dedicated section featuring:
 - **Consistent color scheme and typography**: CSS-based theming
 - **Interactive hover effects**: CSS transitions and transforms
 - **Smooth transitions and animations**: CSS keyframes and transitions
-- **Mobile-responsive layout**: CSS Grid and Flexbox
 - **Integrated sub-project navigation**: CSS-styled navigation system
 
 ## 💻 Development Approach
