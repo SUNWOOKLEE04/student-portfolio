@@ -166,7 +166,3 @@ For questions about using this template, please refer to the code comments and s
 **Last Updated**: May 2025  
 **Project Status**: Template Ready ✅  
 **Note**: Add your own media files and customize content before use 📁
-
----
-**Last Updated**: May 2025  
-**Project Status**: Completed ✅
