@@ -1,5 +1,3 @@
-미디어 파일을 제외한 README.md로 수정해드릴게요:
-
 # Student Portfolio Website
 
 A collaborative portfolio website showcasing student projects, skills, and achievements, featuring an integrated basketball-themed sub-project.
