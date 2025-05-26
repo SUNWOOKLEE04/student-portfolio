@@ -10,6 +10,7 @@ This is a semester project featuring a multi-student portfolio website built wit
 - **Basketball Sub-project**: Dedicated basketball information website
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 - **Interactive Elements**: Dynamic content and smooth navigation
+- **CSS-Focused Development**: Minimal JavaScript usage (only 5 JS functions) with CSS-driven design
 - **Comprehensive Sections**:
   - About Me pages
   - Project showcases (including Basketball project)
@@ -20,13 +21,15 @@ This is a semester project featuring a multi-student portfolio website built wit
   - Contact information
 
 ## 🛠️ Technologies Used
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Design**: Responsive web design principles
+- **Frontend**: HTML5, CSS3, JavaScript (minimal usage)
+- **Design**: CSS-focused responsive web design principles
+- **JavaScript**: Limited to 5 essential functions only
 - **Media**: Placeholder references for images and videos
+- **Approach**: CSS-first development with minimal JavaScript dependency
 
 ## 📁 Project Structure
 ```
-student-semester-project/
+student-portfolio/
 ├── Basketball/                    # Basketball-themed sub-project
 │   ├── CSS/
 │   │   ├── Home.css
@@ -59,7 +62,7 @@ student-semester-project/
 │   ├── Skills.html
 │   └── Testimonials.html
 ├── JS/
-│   └── scripts.js
+│   └── scripts.js               # Contains only 5 essential functions
 └── README.md
 ```
 
@@ -130,12 +133,21 @@ A dedicated section featuring:
 10. **Contact** - Contact information
 
 ## 🎨 Design Features
-- Clean and modern interface
-- Consistent color scheme and typography
-- Interactive hover effects
-- Smooth transitions and animations
-- Mobile-responsive layout
-- Integrated sub-project navigation
+- **CSS-Driven Design**: Emphasis on pure CSS for styling and animations
+- **Minimal JavaScript**: Only 5 JavaScript functions used for essential functionality
+- **Clean and modern interface**: Achieved primarily through CSS
+- **Consistent color scheme and typography**: CSS-based theming
+- **Interactive hover effects**: CSS transitions and transforms
+- **Smooth transitions and animations**: CSS keyframes and transitions
+- **Mobile-responsive layout**: CSS Grid and Flexbox
+- **Integrated sub-project navigation**: CSS-styled navigation system
+
+## 💻 Development Approach
+- **CSS-First Philosophy**: Prioritizing CSS solutions over JavaScript
+- **Performance Optimized**: Minimal JavaScript for faster loading
+- **Maintainable Code**: Clean CSS architecture with organized stylesheets
+- **Accessibility Focused**: Semantic HTML with CSS enhancements
+- **Browser Compatibility**: CSS features with broad browser support
 
 ## ⚠️ Setup Instructions
 1. **Download the code files**
@@ -150,6 +162,7 @@ A dedicated section featuring:
 - Add your own project descriptions in Projects.html
 - Replace skill names and descriptions in Skills.html
 - Update award information in Awards.html
+- Modify CSS files to change colors, fonts, and layouts
 
 ## 📝 License
 This project is created for educational purposes as part of a semester assignment.
@@ -163,4 +176,5 @@ For questions about using this template, please refer to the code comments and s
 ---
 **Last Updated**: May 2025  
 **Project Status**: Template Ready ✅  
+**Development Focus**: CSS-Centric Design with Minimal JavaScript 🎨  
 **Note**: Add your own media files and customize content before use 📁
